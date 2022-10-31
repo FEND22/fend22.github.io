@@ -1,0 +1,18 @@
+.tab div {
+  display: none;
+}
+
+.tab div:target {
+  display: block;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+ul,
+pre {
+  font-family: "Roboto";
+}

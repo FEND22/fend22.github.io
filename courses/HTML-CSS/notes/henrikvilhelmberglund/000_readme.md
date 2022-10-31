@@ -20,6 +20,7 @@ WCAG - Web Content Accessibility Guidelines
 funka.com - exempel på linkedin
 
 ## Exempel HTML-tagg
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,8 +31,9 @@ funka.com - exempel på linkedin
   </head>
   <body></body>
 </html>
+```
 
-- <html lang="en">: vilket språk är rubriker/texter för screenreader t.ex
+- `<html lang="en">`: vilket språk är rubriker/texter för screenreader t.ex
 - localization: kan använda javascript för att ändra språket, också lang-taggen
 - <article>Annan semantisk innebyggd än div</article>
 - <nav>för navigation</nav> (för skärmläsare), ger kontext
@@ -41,7 +43,7 @@ funka.com - exempel på linkedin
 - tillgängliga sidor hamnar högre i sökresultat
 - charset för att sätta en encoding för att stöda andra språk
 - i vanilla CSS har inline högre prioritet
-- koppla CSS med <link rel="stylesheet" href="style.css">
+- koppla CSS med `<link rel="stylesheet" href="style.css">`
 - lorem5 t.ex i HTML för att autocompleta lorem ipsum för att testa
 - kan bara ha en h1 men hur många h2 etc som helst
 - h3 etc ska ha något att göra med h2
@@ -50,8 +52,8 @@ funka.com - exempel på linkedin
 
 ## Annat att tänka på
 
-- self enclosing tag <input type="button"/>
-- <div role="navigation"> ? vs nav-tag
+- self enclosing tag `<input type="button"/>`
+- `<div role="navigation">` ? vs nav-tag
 - naturlig tabbordning för tillgänglighet
 - ha alt-taggar för alla bilder 
 - aldrig button med a-taggar för navigering (bättre att göra med CSS)
